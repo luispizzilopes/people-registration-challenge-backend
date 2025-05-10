@@ -1,0 +1,11 @@
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\bin\Debug\net8.0\PeopleAPI.Domain.deps.json
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\bin\Debug\net8.0\PeopleAPI.Domain.dll
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\bin\Debug\net8.0\PeopleAPI.Domain.pdb
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\obj\Debug\net8.0\PeopleAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\obj\Debug\net8.0\PeopleAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\obj\Debug\net8.0\PeopleAPI.Domain.AssemblyInfo.cs
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\obj\Debug\net8.0\PeopleAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\obj\Debug\net8.0\PeopleAPI.Domain.dll
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\obj\Debug\net8.0\refint\PeopleAPI.Domain.dll
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\obj\Debug\net8.0\PeopleAPI.Domain.pdb
+C:\Users\pizzi\source\repos\DesafioStefanini\PeopleAPI.Domain\obj\Debug\net8.0\ref\PeopleAPI.Domain.dll
