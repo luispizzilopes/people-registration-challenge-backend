@@ -10,4 +10,5 @@ public interface IPersonRepository
     bool UpdatePerson(Person person);
     bool DeletePerson(Person person);
     Task<bool> ExistsCpf(string cpf);
+    Task<bool> ExistsCpf(string cpf, Guid id);
 }

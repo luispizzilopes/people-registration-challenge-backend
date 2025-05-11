@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeopleAPI.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b20e3718cf1f783b8f88a157df0b05398a17582")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c43e74d5bf103a00cd5362f4f79f3e862fff2f57")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeopleAPI.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeopleAPI.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

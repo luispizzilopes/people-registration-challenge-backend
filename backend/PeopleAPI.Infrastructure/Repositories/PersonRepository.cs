@@ -74,4 +74,12 @@ public class PersonRepository : IPersonRepository
             .Where(p => p.Cpf == cpf)
             .AnyAsync(); 
     }
+
+    public async Task<bool> ExistsCpf(string cpf, Guid id)
+    {
+        return await _context.Peoples
+         .AsNoTracking()
+         .Where(p => p.Cpf == cpf && p.Id != id)
+         .AnyAsync();
+    }
 }
