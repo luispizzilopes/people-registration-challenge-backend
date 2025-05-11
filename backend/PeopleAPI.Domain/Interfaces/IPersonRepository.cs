@@ -4,9 +4,10 @@ namespace PeopleAPI.Domain.Interfaces;
 
 public interface IPersonRepository
 {
-    Task<Person> GetPerson(Guid id);
+    Task<Person?> GetPerson(Guid id);
     Task<IEnumerable<Person>> GetPersons();
-    Task<Person> CreatePerson(Person person);
-    Task<Person> UpdatePerson(Person person);
-    Task<bool> DeletePerson(Person person); 
+    Task<bool> CreatePerson(Person person);
+    bool UpdatePerson(Person person);
+    bool DeletePerson(Person person);
+    Task<bool> ExistsCpf(string cpf);
 }

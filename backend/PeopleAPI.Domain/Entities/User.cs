@@ -1,33 +1,33 @@
-﻿using PeopleAPI.Domain.Entities.Base;
-using PeopleAPI.Domain.Exception;
-using PeopleAPI.Domain.Exception.Messages;
-using System.Text.RegularExpressions;
+﻿    using PeopleAPI.Domain.Entities.Base;
+    using PeopleAPI.Domain.Exception;
+    using PeopleAPI.Domain.Exception.Messages;
+    using System.Text.RegularExpressions;
 
-namespace PeopleAPI.Domain.Entities; 
+    namespace PeopleAPI.Domain.Entities; 
 
-public class User : BaseEntity
-{
-    public string Email { get; private set; } = string.Empty;
-    public string Password { get; private set; } = string.Empty; 
-
-    public User() { }
-
-    public static User Create(string email, string password)
+    public class User : BaseEntity
     {
-        if (!ValidateEmail(email))
-            throw new DomainException(UserMessagesException.EmailInvalid);
+        public string Email { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty; 
 
-        if (!ValidatePassword(password))
-            throw new DomainException(UserMessagesException.PasswordInvalid);
+        public User() { }
 
-
-        return new User
+        public static User Create(string email, string password)
         {
-            Email = email,
-            Password = password,
-        }; 
-    }
+            if (!ValidateEmail(email))
+                throw new DomainException(UserMessagesException.EmailInvalid);
 
-    public static bool ValidateEmail(string email) => Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
-    public static bool ValidatePassword(string password) => Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"); 
-}
+            if (!ValidatePassword(password))
+                throw new DomainException(UserMessagesException.PasswordInvalid);
+
+
+            return new User
+            {
+                Email = email,
+                Password = password,
+            }; 
+        }
+
+        public static bool ValidateEmail(string email) => Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
+        public static bool ValidatePassword(string password) => Regex.IsMatch(password, @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"); 
+    }

@@ -1,0 +1,16 @@
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\bin\Debug\net8.0\PeopleAPI.Infrastructure.deps.json
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\bin\Debug\net8.0\PeopleAPI.Infrastructure.dll
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\bin\Debug\net8.0\PeopleAPI.Infrastructure.pdb
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\bin\Debug\net8.0\PeopleAPI.Domain.dll
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\bin\Debug\net8.0\PeopleAPI.Domain.pdb
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAPI.Infrastructure.sourcelink.json
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAP.1C2189E0.Up2Date
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAPI.Infrastructure.dll
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\refint\PeopleAPI.Infrastructure.dll
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\PeopleAPI.Infrastructure.pdb
+C:\Users\pizzi\Desktop\people-registration-challenge\backend\PeopleAPI.Infrastructure\obj\Debug\net8.0\ref\PeopleAPI.Infrastructure.dll

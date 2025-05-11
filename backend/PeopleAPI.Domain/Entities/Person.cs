@@ -8,14 +8,14 @@ namespace PeopleAPI.Domain.Entities;
 
 public class Person : BaseEntity
 {
-    public string Name { get; private set; } = string.Empty; 
-    public DateTimeOffset BirthDate { get; private set; }
-    public string Cpf { get; private set; } = string.Empty; 
-    public string? Address { get; private set; }
-    public Gender? Gender { get; private set; }
-    public string? Email { get; private set; }
-    public string? Naturality { get; private set; }
-    public string? Nacionality { get; private set; }
+    public string Name { get; set; } = string.Empty; 
+    public DateTimeOffset BirthDate { get; set; }
+    public string Cpf { get; set; } = string.Empty; 
+    public string? Address { get; set; }
+    public Gender? Gender { get; set; }
+    public string? Email { get; set; }
+    public string? Naturality { get; set; }
+    public string? Nacionality { get; set; }
 
     public Person() { }
 
@@ -69,7 +69,7 @@ public class Person : BaseEntity
         return CheckDigits(cpf);
     }
 
-    private static bool CheckDigits(ReadOnlySpan<char> cpf)
+     static bool CheckDigits(ReadOnlySpan<char> cpf)
     {
         var firstDigit = CalculateDigit(cpf, 9, 10);
         var secondDigit = CalculateDigit(cpf, 10, 11);
@@ -77,7 +77,7 @@ public class Person : BaseEntity
         return cpf[9] - '0' == firstDigit && cpf[10] - '0' == secondDigit;
     }
 
-    private static int CalculateDigit(ReadOnlySpan<char> cpf, int length, int weightStart)
+     static int CalculateDigit(ReadOnlySpan<char> cpf, int length, int weightStart)
     {
         int sum = 0;
         for (int i = 0; i < length; i++)
