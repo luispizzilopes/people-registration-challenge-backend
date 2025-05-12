@@ -141,10 +141,7 @@
       },
       "PeopleAPI.Domain/1.0.0": {
         "runtime": {
-          "PeopleAPI.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "PeopleAPI.Domain.dll": {}
         }
       }
     }

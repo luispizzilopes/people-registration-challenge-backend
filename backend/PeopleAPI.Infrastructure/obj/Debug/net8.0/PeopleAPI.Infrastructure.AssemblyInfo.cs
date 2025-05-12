@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeopleAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c43e74d5bf103a00cd5362f4f79f3e862fff2f57")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2054b07d15c3ccf24ab704c8c79a8e25eb0cc9b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeopleAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeopleAPI.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

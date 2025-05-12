@@ -33,6 +33,8 @@ public class PersonRepository : IPersonRepository
     {
         try
         {
+            person.CreateTime = DateTimeOffset.Now; 
+
             await _context.AddAsync(person);
             return true; 
         }
@@ -45,6 +47,8 @@ public class PersonRepository : IPersonRepository
     {
         try
         {
+            person.UpdateTime = DateTimeOffset.Now; 
+
             _context.Entry(person).State = EntityState.Modified;
             return true; 
         }

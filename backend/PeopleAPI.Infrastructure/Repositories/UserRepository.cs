@@ -23,6 +23,15 @@ public class UserRepository : IUserRepository
             .FirstOrDefaultAsync(); 
     }
 
+    public async Task<User?> GetUserByEmail(string email)
+    {
+        return await _context.Users
+          .AsNoTracking()
+          .AsQueryable()
+          .Where(u => u.Email == email)
+          .FirstOrDefaultAsync();
+    }
+
     public async Task<IEnumerable<User>> GetUsers()
     {
         return await _context.Users.ToListAsync(); 
@@ -32,6 +41,8 @@ public class UserRepository : IUserRepository
     {
         try
         {
+            user.CreateTime = DateTimeOffset.Now; 
+
             await _context.Users.AddAsync(user);
             return true;
         }
@@ -45,6 +56,8 @@ public class UserRepository : IUserRepository
     {
         try
         {
+            user.UpdateTime = DateTimeOffset.Now;
+
             _context.Entry(user).State = EntityState.Modified;
             return true;
         }
@@ -65,5 +78,14 @@ public class UserRepository : IUserRepository
         {
             return false;
         }
+    }
+
+    public async Task<User?> FindUser(string email, string password)
+    {
+        return await _context.Users
+        .AsNoTracking()
+        .AsQueryable()
+        .Where(u => u.Email == email && u.Password == password)
+        .FirstOrDefaultAsync();
     }
 }

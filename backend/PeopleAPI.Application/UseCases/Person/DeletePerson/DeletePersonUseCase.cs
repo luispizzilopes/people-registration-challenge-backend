@@ -25,5 +25,4 @@ public class DeletePersonUseCase
         await _unitOfWork.Commit();
         return Result.Success("Pessoa deletada com sucesso!");
     }
-
 }

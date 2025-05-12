@@ -1,7 +1,7 @@
 ﻿using PeopleAPI.Domain.Enums;
 using System.ComponentModel.DataAnnotations;
 
-namespace PeopleAPI.Application.UseCases.Person.GetPerson; 
+namespace PeopleAPI.Application.UseCases.Person.GetPersons; 
 
 public class PersonDto
 {

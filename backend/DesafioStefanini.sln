@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAPI.Domain", "PeopleAPI.Domain\PeopleAPI.Domain.csproj", "{0E445EE6-C81B-4FDF-83C5-C4C64E87C60B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleAPI.Domain", "PeopleAPI.Domain\PeopleAPI.Domain.csproj", "{0E445EE6-C81B-4FDF-83C5-C4C64E87C60B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAPI.Tests", "PeopleAPI.Tests\PeopleAPI.Tests.csproj", "{BACC7852-F22D-4200-95CA-983EC0F89F93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleAPI.Tests", "PeopleAPI.Tests\PeopleAPI.Tests.csproj", "{BACC7852-F22D-4200-95CA-983EC0F89F93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAPI.Infrastructure", "PeopleAPI.Infrastructure\PeopleAPI.Infrastructure.csproj", "{E35E66B5-BC60-4BDE-B0B0-C8806A11C053}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleAPI.Infrastructure", "PeopleAPI.Infrastructure\PeopleAPI.Infrastructure.csproj", "{E35E66B5-BC60-4BDE-B0B0-C8806A11C053}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAPI.CrossCutting", "PeopleAPI.CrossCutting\PeopleAPI.CrossCutting.csproj", "{D084DF25-063E-48A1-8864-89126194E83D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleAPI.CrossCutting", "PeopleAPI.CrossCutting\PeopleAPI.CrossCutting.csproj", "{D084DF25-063E-48A1-8864-89126194E83D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAPI.Application", "PeopleAPI.Application\PeopleAPI.Application.csproj", "{494F9042-7CF3-45B4-B839-FD902288FAE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleAPI.Application", "PeopleAPI.Application\PeopleAPI.Application.csproj", "{494F9042-7CF3-45B4-B839-FD902288FAE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAPI.Shared", "PeopleAPI.Shared\PeopleAPI.Shared.csproj", "{1EA6CE26-5073-4DFE-B935-31A7EB750CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleAPI.Shared", "PeopleAPI.Shared\PeopleAPI.Shared.csproj", "{1EA6CE26-5073-4DFE-B935-31A7EB750CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleAPI.Presentation", "PeopleAPI.Presentation\PeopleAPI.Presentation.csproj", "{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1EA6CE26-5073-4DFE-B935-31A7EB750CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA6CE26-5073-4DFE-B935-31A7EB750CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EA6CE26-5073-4DFE-B935-31A7EB750CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PeopleAPI.Presentation</name>
+    </assembly>
+    <members>
+        <member name="T:PeopleAPI.Presentation.Controllers.v1.AuthenticationController">
+            <summary>
+            Controlador responsável pelas operações de autenticação de usuários.
+            </summary>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.AuthenticationController.#ctor(PeopleAPI.Application.Facades.Authentication.IAuthenticationFacade)">
+            <summary>
+            Construtor do controlador de autenticação.
+            </summary>
+            <param name="authenticationFacade">Fachada de autenticação para lidar com os casos de uso.</param>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.AuthenticationController.SignIn(PeopleAPI.Application.UseCases.Authentication.SignIn.SignInDto)">
+            <summary>
+            Realiza a autenticação do usuário e retorna um token JWT caso as credenciais estejam corretas.
+            </summary>
+            <param name="signIn">Dados do usuário para autenticação (e-mail e senha).</param>
+            <returns>Um token JWT em caso de sucesso ou uma resposta de erro em caso de falha.</returns>
+        </member>
+        <member name="T:PeopleAPI.Presentation.Controllers.v1.PersonController">
+            <summary>
+            Controlador responsável pelas operações relacionadas a pessoas.
+            </summary>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.PersonController.#ctor(PeopleAPI.Application.Facades.Person.IPersonFacade)">
+            <summary>
+            Construtor do controlador de pessoas.
+            </summary>
+            <param name="personFacade">Fachada de pessoa para lidar com os casos de uso.</param>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.PersonController.GetPersons">
+            <summary>
+            Retorna a lista de todas as pessoas cadastradas.
+            </summary>
+            <returns>Lista de pessoas.</returns>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.PersonController.GetPerson(System.Guid)">
+            <summary>
+            Retorna os dados de uma pessoa específica pelo identificador.
+            </summary>
+            <param name="id">Identificador da pessoa.</param>
+            <returns>Dados da pessoa encontrada ou erro caso não exista.</returns>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.PersonController.CreatePerson(PeopleAPI.Application.UseCases.Person.CreatePerson.CreatePersonDto)">
+            <summary>
+            Cria uma nova pessoa no sistema.
+            </summary>
+            <param name="createPerson">Dados da pessoa a ser criada.</param>
+            <returns>Resultado da operação de criação.</returns>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.PersonController.UpdatePerson(PeopleAPI.Application.UseCases.Person.CreatePerson.UpdatePersonDto)">
+            <summary>
+            Atualiza os dados de uma pessoa existente.
+            </summary>
+            <param name="updatePerson">Dados da pessoa a serem atualizados.</param>
+            <returns>Resultado da operação de atualização.</returns>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.PersonController.DeletePerson(System.Guid)">
+            <summary>
+            Remove uma pessoa do sistema com base no identificador.
+            </summary>
+            <param name="id">Identificador da pessoa a ser removida.</param>
+            <returns>Resultado da operação de exclusão.</returns>
+        </member>
+        <member name="T:PeopleAPI.Presentation.Controllers.v1.UserController">
+            <summary>
+            Controlador responsável pelas operações relacionadas ao usuário.
+            </summary>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.UserController.#ctor(PeopleAPI.Application.Facades.User.IUserFacade)">
+            <summary>
+            Construtor do controlador de usuários.
+            </summary>
+            <param name="userFacade">Fachada de usuário para lidar com os casos de uso.</param>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v1.UserController.CreateUser(PeopleAPI.Application.UseCases.User.CreateUser.CreateUserDto)">
+            <summary>
+            Cria um novo usuário no sistema.
+            </summary>
+            <param name="createUser">Dados do usuário a ser criado.</param>
+            <returns>Resultado da operação de criação do usuário.</returns>
+        </member>
+        <member name="T:PeopleAPI.Presentation.Controllers.v2.PersonController">
+            <summary>
+            Controlador responsável pelas operações de pessoa com endereço obrigatório (versão 2 da API).
+            </summary>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v2.PersonController.#ctor(PeopleAPI.Application.Facades.Person.IPersonFacade)">
+            <summary>
+            Construtor do controlador de pessoas da versão 2.
+            </summary>
+            <param name="personFacade">Fachada de pessoa que contém os casos de uso relacionados à versão 2.</param>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v2.PersonController.CreatePerson(PeopleAPI.Application.UseCases.Person.CreatePersonWithRequiredAddress.CreatePersonWithRequiredAddressDto)">
+            <summary>
+            Cria uma nova pessoa no sistema com endereço obrigatório.
+            </summary>
+            <param name="createPersonWithRequiredAddress">Dados da pessoa e do endereço a serem cadastrados.</param>
+            <returns>Resultado da operação de criação.</returns>
+        </member>
+        <member name="M:PeopleAPI.Presentation.Controllers.v2.PersonController.UpdatePerson(PeopleAPI.Application.UseCases.Person.UpdatePersonWithRequiredAddress.UpdatePersonWithRequiredAddressDto)">
+            <summary>
+            Atualiza os dados de uma pessoa com endereço obrigatório.
+            </summary>
+            <param name="updatePersonWithRequiredAddress">Dados atualizados da pessoa e do endereço.</param>
+            <returns>Resultado da operação de atualização.</returns>
+        </member>
+    </members>
+</doc>

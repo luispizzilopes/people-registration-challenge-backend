@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\bin\Debug\net8.0\PeopleAPI.Shared.deps.json
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\bin\Debug\net8.0\PeopleAPI.Shared.dll
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\bin\Debug\net8.0\PeopleAPI.Shared.pdb
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\PeopleAPI.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\PeopleAPI.Shared.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\PeopleAPI.Shared.AssemblyInfo.cs
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\PeopleAPI.Shared.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\PeopleAPI.Shared.sourcelink.json
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\PeopleAPI.Shared.dll
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\refint\PeopleAPI.Shared.dll
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\PeopleAPI.Shared.pdb
+C:\Users\PC\Desktop\people-registration-challenge\backend\PeopleAPI.Shared\obj\Debug\net8.0\ref\PeopleAPI.Shared.dll

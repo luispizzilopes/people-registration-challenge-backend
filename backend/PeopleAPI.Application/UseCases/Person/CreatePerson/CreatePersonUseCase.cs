@@ -2,9 +2,8 @@
 using PeopleAPI.Application.Validations.Person.CpfPersonValidate;
 using PeopleAPI.Domain.UnitOfWork;
 using PeopleAPI.Shared.Common;
-using System.Numerics;
 
-namespace PeopleAPI.Application.UseCases.Person.CreatePerson; 
+namespace PeopleAPI.Application.UseCases.Person.CreatePerson;
 
 public class CreatePersonUseCase
 {
