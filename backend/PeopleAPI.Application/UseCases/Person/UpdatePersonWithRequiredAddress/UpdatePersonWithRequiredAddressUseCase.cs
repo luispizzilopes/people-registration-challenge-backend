@@ -16,6 +16,9 @@ public class UpdatePersonWithRequiredAddressUseCase
 
     public async Task<Result> ExecuteAsync(UpdatePersonWithRequiredAddressDto updatePersonWithRequiredAddress)
     {
+        if (string.IsNullOrEmpty(updatePersonWithRequiredAddress.Address))
+            return Result.Failure("O campo Endereço é obrigatório.");
+
         return await _updatePersonUseCase
             .ExecuteAsync(updatePersonWithRequiredAddress.Adapt<UpdatePersonDto>()); 
     } 

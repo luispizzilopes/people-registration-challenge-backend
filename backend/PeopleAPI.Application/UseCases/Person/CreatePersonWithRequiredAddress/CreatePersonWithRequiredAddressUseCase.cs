@@ -15,6 +15,9 @@ public class CreatePersonWithRequiredAddressUseCase
 
     public async Task<Result> ExecuteAsync(CreatePersonWithRequiredAddressDto createPersonWithRequiredAddress)
     {
+        if (string.IsNullOrEmpty(createPersonWithRequiredAddress.Address))
+            return Result.Failure("O campo Endereço é obrigatório."); 
+
         return await _createPersonUseCase
             .ExecuteAsync(createPersonWithRequiredAddress.Adapt<CreatePersonDto>()); 
     }

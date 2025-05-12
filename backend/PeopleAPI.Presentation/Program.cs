@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using PeopleAPI.Presentation.Swagger;
 using PeopleAPI.CrossCutting.IoC.Infrastructure; 
-using PeopleAPI.CrossCutting.IoC.Application; 
+using PeopleAPI.CrossCutting.IoC.Application;
+using PeopleAPI.Presentation.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,8 @@ app.UseHttpsRedirection();
 app.UseAuthentication(); 
 
 app.UseAuthorization();
+
+app.UseMiddleware(typeof(ErrorMiddleware)); 
 
 app.MapControllers();
 

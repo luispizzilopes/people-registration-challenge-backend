@@ -4,8 +4,8 @@ namespace PeopleAPI.Domain.UnitOfWork;
 
 public interface IUnitOfWork
 {
-    IPersonRepository PersonRepository { get; }
-    IUserRepository UserRepository { get; }
+    IPersonRepository PersonRepository { get; set; }
+    IUserRepository UserRepository { get; set; }
 
     Task Commit(); 
 }

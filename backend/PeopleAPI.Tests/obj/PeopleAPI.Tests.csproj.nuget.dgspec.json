@@ -4,6 +4,94 @@
     "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Tests\\PeopleAPI.Tests.csproj": {}
   },
   "projects": {
+    "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\PeopleAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\PeopleAPI.Application.csproj",
+        "projectName": "PeopleAPI.Application",
+        "projectPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\PeopleAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Domain\\PeopleAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Domain\\PeopleAPI.Domain.csproj"
+              },
+              "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Infrastructure\\PeopleAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Infrastructure\\PeopleAPI.Infrastructure.csproj"
+              },
+              "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Shared\\PeopleAPI.Shared.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Shared\\PeopleAPI.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Domain\\PeopleAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -138,6 +226,66 @@
         }
       }
     },
+    "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Shared\\PeopleAPI.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Shared\\PeopleAPI.Shared.csproj",
+        "projectName": "PeopleAPI.Shared",
+        "projectPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Shared\\PeopleAPI.Shared.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Tests\\PeopleAPI.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -162,6 +310,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\PeopleAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\PeopleAPI.Application.csproj"
+              },
               "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Domain\\PeopleAPI.Domain.csproj": {
                 "projectPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Domain\\PeopleAPI.Domain.csproj"
               },

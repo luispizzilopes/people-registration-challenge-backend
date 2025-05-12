@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeopleAPI.CrossCutting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2054b07d15c3ccf24ab704c8c79a8e25eb0cc9b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68201beb3bf59df4aac718e30c9cda99f6fadc78")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeopleAPI.CrossCutting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeopleAPI.CrossCutting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

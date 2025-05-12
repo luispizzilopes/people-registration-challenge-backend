@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zDKVtbfdq8xAC3TzO4gaKKK0L5ke+412o4vUtVQTE83okFW4fzI/DRYhH4X6LQ9U42hPbuR4NR+19OJusbr94w==",
+  "dgSpecHash": "Z/QMiFAZHmIC4+GrwWEWsIh0WoYAq3F0zUAG5GkVHOgIRDffXGwH+EU3/t8E/Kq48KKx2glAPOMyytSEn6OX3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Presentation\\PeopleAPI.Presentation.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.9.0\\microsoft.identitymodel.tokens.8.9.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

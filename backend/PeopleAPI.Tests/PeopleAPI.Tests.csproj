@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PeopleAPI.Application\PeopleAPI.Application.csproj" />
     <ProjectReference Include="..\PeopleAPI.Domain\PeopleAPI.Domain.csproj" />
     <ProjectReference Include="..\PeopleAPI.Infrastructure\PeopleAPI.Infrastructure.csproj" />
   </ItemGroup>

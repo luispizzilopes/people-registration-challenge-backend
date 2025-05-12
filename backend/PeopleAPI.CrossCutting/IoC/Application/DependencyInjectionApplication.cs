@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using PeopleAPI.Application.Facades.Authentication;
 using PeopleAPI.Application.Facades.Person;
 using PeopleAPI.Application.Facades.User;
+using PeopleAPI.Application.Mappings;
 using PeopleAPI.Application.Services.TokenJwt;
 using PeopleAPI.Application.UseCases.Authentication.SignIn;
 using PeopleAPI.Application.UseCases.Person.CreatePerson;
@@ -55,6 +56,8 @@ public static class DependencyInjectionApplication
                ValidateIssuerSigningKey = true,
                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:key"]!))
            });
+
+        MapsterConfiguration.RegisterMappings();
 
         return services; 
     }

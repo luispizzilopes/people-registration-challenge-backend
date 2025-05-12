@@ -22,6 +22,8 @@ public class UnitOfWork : IUnitOfWork
         {
             return _personRepository = _personRepository ?? new PersonRepository(_context); 
         }
+
+        set { }
     }
 
     public IUserRepository UserRepository
@@ -30,6 +32,8 @@ public class UnitOfWork : IUnitOfWork
         {
             return _userRepository = _userRepository ?? new UserRepository(_context); 
         }
+
+        set { }
     }
 
     public async Task Commit()

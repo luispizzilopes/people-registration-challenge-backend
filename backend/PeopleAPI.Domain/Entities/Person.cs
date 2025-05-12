@@ -91,7 +91,7 @@ public class Person : BaseEntity
 
     public static bool ValidateBirthDate(DateTimeOffset birthDate)
     {
-        if (birthDate == DateTimeOffset.Now.Date)
+        if (birthDate >= DateTimeOffset.Now.Date)
             return false;
 
         return true; 
