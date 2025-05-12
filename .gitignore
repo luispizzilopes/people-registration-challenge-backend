@@ -1,0 +1,81 @@
+# ======================
+# Ignore geral do sistema
+# ======================
+*.DS_Store
+Thumbs.db
+*.log
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ======================
+# Ignore para o backend C# (.NET)
+# ======================
+backend/bin/
+backend/obj/
+backend/**/*.db
+backend/**/*.sqlite
+backend/.vs/
+backend/*.db
+backend/*.sqlite
+backend/Migrations/
+
+# Arquivos de build
+backend/**/*.dll
+backend/**/*.exe
+backend/**/*.pdb
+
+# Configurações locais
+backend/appsettings.Development.json
+backend/Properties/launchSettings.json
+
+# Diretórios de publicação
+backend/publish/
+backend/wwwroot/
+
+# Testes
+backend/TestResults/
+backend/.coverage/
+
+# Secretos
+backend/secrets.json
+backend/.env
+
+# Rider
+backend/.idea/
+
+# Visual Studio Code
+backend/.vscode/
+
+# ======================
+# Ignore para o frontend React
+# ======================
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/coverage/
+frontend/.turbo/
+frontend/.parcel-cache/
+frontend/.vite/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Editor configs
+frontend/.vscode/
+frontend/.idea/
+
+# Lock files (opcional se você padroniza o gerenciador de pacotes)
+# frontend/package-lock.json
+# frontend/yarn.lock
+# frontend/pnpm-lock.yaml
