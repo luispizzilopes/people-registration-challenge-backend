@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BACC7852-F22D-4200-95CA-983EC0F89F93}|PeopleAPI.Tests\\PeopleAPI.Tests.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.tests\\application\\facades\\personfacadetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACC7852-F22D-4200-95CA-983EC0F89F93}|PeopleAPI.Tests\\PeopleAPI.Tests.csproj|solutionrelative:peopleapi.tests\\application\\facades\\personfacadetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494F9042-7CF3-45B4-B839-FD902288FAE5}|PeopleAPI.Application\\PeopleAPI.Application.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.application\\facades\\person\\personfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494F9042-7CF3-45B4-B839-FD902288FAE5}|PeopleAPI.Application\\PeopleAPI.Application.csproj|solutionrelative:peopleapi.application\\facades\\person\\personfacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACC7852-F22D-4200-95CA-983EC0F89F93}|PeopleAPI.Tests\\PeopleAPI.Tests.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.tests\\application\\mappings\\mapsterconfigurationstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACC7852-F22D-4200-95CA-983EC0F89F93}|PeopleAPI.Tests\\PeopleAPI.Tests.csproj|solutionrelative:peopleapi.tests\\application\\mappings\\mapsterconfigurationstest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BACC7852-F22D-4200-95CA-983EC0F89F93}|PeopleAPI.Tests\\PeopleAPI.Tests.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.tests\\application\\services\\tokenjwtservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BACC7852-F22D-4200-95CA-983EC0F89F93}|PeopleAPI.Tests\\PeopleAPI.Tests.csproj|solutionrelative:peopleapi.tests\\application\\services\\tokenjwtservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494F9042-7CF3-45B4-B839-FD902288FAE5}|PeopleAPI.Application\\PeopleAPI.Application.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.application\\mappings\\mapsterconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494F9042-7CF3-45B4-B839-FD902288FAE5}|PeopleAPI.Application\\PeopleAPI.Application.csproj|solutionrelative:peopleapi.application\\mappings\\mapsterconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494F9042-7CF3-45B4-B839-FD902288FAE5}|PeopleAPI.Application\\PeopleAPI.Application.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.application\\services\\tokenjwt\\tokenjwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494F9042-7CF3-45B4-B839-FD902288FAE5}|PeopleAPI.Application\\PeopleAPI.Application.csproj|solutionrelative:peopleapi.application\\services\\tokenjwt\\tokenjwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}|PeopleAPI.Presentation\\PeopleAPI.Presentation.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.presentation\\controllers\\v2\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}|PeopleAPI.Presentation\\PeopleAPI.Presentation.csproj|solutionrelative:peopleapi.presentation\\controllers\\v2\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}|PeopleAPI.Presentation\\PeopleAPI.Presentation.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.presentation\\controllers\\v2\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}|PeopleAPI.Presentation\\PeopleAPI.Presentation.csproj|solutionrelative:peopleapi.presentation\\controllers\\v2\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}|PeopleAPI.Presentation\\PeopleAPI.Presentation.csproj|c:\\users\\pc\\desktop\\people-registration-challenge\\backend\\peopleapi.presentation\\controllers\\v2\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626B40AF-2B92-41DD-ABA5-AC6FB405E1C6}|PeopleAPI.Presentation\\PeopleAPI.Presentation.csproj|solutionrelative:peopleapi.presentation\\controllers\\v2\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonFacadeTest.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Tests\\Application\\Facades\\PersonFacadeTest.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Tests\\Application\\Facades\\PersonFacadeTest.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Tests\\Application\\Facades\\PersonFacadeTest.cs",
+              "RelativeToolTip": "PeopleAPI.Tests\\Application\\Facades\\PersonFacadeTest.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAIIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T23:11:29.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonFacade.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\Facades\\Person\\PersonFacade.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Application\\Facades\\Person\\PersonFacade.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\Facades\\Person\\PersonFacade.cs",
+              "RelativeToolTip": "PeopleAPI.Application\\Facades\\Person\\PersonFacade.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAtwDkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T23:09:49.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapsterConfigurationsTest.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Tests\\Application\\Mappings\\MapsterConfigurationsTest.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Tests\\Application\\Mappings\\MapsterConfigurationsTest.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Tests\\Application\\Mappings\\MapsterConfigurationsTest.cs",
+              "RelativeToolTip": "PeopleAPI.Tests\\Application\\Mappings\\MapsterConfigurationsTest.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAADgv08AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:55:30.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MapsterConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\Mappings\\MapsterConfiguration.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Application\\Mappings\\MapsterConfiguration.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\Mappings\\MapsterConfiguration.cs",
+              "RelativeToolTip": "PeopleAPI.Application\\Mappings\\MapsterConfiguration.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAADwvzwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:52:04.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenJwtServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Tests\\Application\\Services\\TokenJwtServiceTest.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Tests\\Application\\Services\\TokenJwtServiceTest.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Tests\\Application\\Services\\TokenJwtServiceTest.cs",
+              "RelativeToolTip": "PeopleAPI.Tests\\Application\\Services\\TokenJwtServiceTest.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAswD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:47:29.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\Services\\TokenJwt\\TokenJwtService.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Application\\Services\\TokenJwt\\TokenJwtService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Application\\Services\\TokenJwt\\TokenJwtService.cs",
+              "RelativeToolTip": "PeopleAPI.Application\\Services\\TokenJwt\\TokenJwtService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:46:18.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Presentation\\Controllers\\v2\\UserController.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Presentation\\Controllers\\v2\\UserController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Presentation\\Controllers\\v2\\UserController.cs",
+              "RelativeToolTip": "PeopleAPI.Presentation\\Controllers\\v2\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:29:24.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Presentation\\Controllers\\v2\\PersonController.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Presentation\\Controllers\\v2\\PersonController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Presentation\\Controllers\\v2\\PersonController.cs",
+              "RelativeToolTip": "PeopleAPI.Presentation\\Controllers\\v2\\PersonController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:29:23.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Presentation\\Controllers\\v2\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "PeopleAPI.Presentation\\Controllers\\v2\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\people-registration-challenge\\backend\\PeopleAPI.Presentation\\Controllers\\v2\\AuthenticationController.cs",
+              "RelativeToolTip": "PeopleAPI.Presentation\\Controllers\\v2\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:29:12.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
