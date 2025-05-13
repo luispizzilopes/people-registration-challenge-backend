@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerConfiguration();
 builder.Services.AddInfrastructure();
 builder.Services.AddApplication(builder.Configuration);
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -26,13 +27,20 @@ app.UseSwaggerUI(options =>
     options.DefaultModelsExpandDepth(-1);
 });
 
+app.UseCors(c =>
+{
+    c.AllowAnyOrigin();
+    c.AllowAnyHeader();
+    c.AllowAnyMethod();
+}); 
+
 app.UseHttpsRedirection();
 
 app.UseAuthentication(); 
 
 app.UseAuthorization();
 
-app.UseMiddleware(typeof(ErrorMiddleware)); 
+app.UseMiddleware(typeof(ErrorMiddleware));
 
 app.MapControllers();
 

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using PeopleAPI.Domain.Entities;
+using System.Reflection.Emit;
 
 namespace PeopleAPI.Infrastructure.EntitiesConfiguration;
 
@@ -8,6 +9,8 @@ public class PersonConfiguration : IEntityTypeConfiguration<Person>
 {
     public void Configure(EntityTypeBuilder<Person> builder)
     {
+        builder.Property(e => e.Id).ValueGeneratedNever();
+
         builder.HasKey(entity => entity.Id);
 
         builder.Property(entity => entity.Cpf)

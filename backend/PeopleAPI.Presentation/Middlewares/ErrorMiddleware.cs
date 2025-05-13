@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using PeopleAPI.Domain.Exception;
 using PeopleAPI.Shared.Common;
 using System.Net;
@@ -28,16 +29,21 @@ public class ErrorMiddleware
 
     private Task HandleExceptionAsync(HttpContext context, Exception ex)
     {
-        Result? result = Result.Failure("Ocorreu um erro durante a execução do EndPoint!"); ;
+        Result? result = Result.Failure("Ocorreu um erro durante a execução do EndPoint!");
 
         if (ex is DomainException domainException)
             result = Result.Failure(domainException.Message);
-       
-        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
 
-        var resultSerializeObject = JsonConvert.SerializeObject(result);
+        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
         context.Response.ContentType = "application/json";
+
+        var settings = new JsonSerializerSettings
+        {
+            ContractResolver = new CamelCasePropertyNamesContractResolver()
+        };
+
+        var resultSerializeObject = JsonConvert.SerializeObject(result, settings);
+
         return context.Response.WriteAsync(resultSerializeObject);
     }
-
 }

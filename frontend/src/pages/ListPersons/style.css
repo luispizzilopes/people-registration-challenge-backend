@@ -1,0 +1,6 @@
+@media(max-width: 768px){
+    #filter-persons{
+        display: flex;
+        flex-direction: column;
+    }
+}

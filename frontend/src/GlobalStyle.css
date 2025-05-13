@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(204, 204, 204, 0.479);
+}
+
+@media(max-width: 768px) {
+    .p-dialog {
+        width: 98% !important;
+    }
+}

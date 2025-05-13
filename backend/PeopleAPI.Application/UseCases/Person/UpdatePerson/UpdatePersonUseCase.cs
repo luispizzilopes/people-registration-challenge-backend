@@ -24,6 +24,7 @@ public class UpdatePersonUseCase
             return cpfValidationResult;
 
         var personEntity = updatePerson.Adapt<Domain.Entities.Person>();
+        personEntity.Id = updatePerson.Id; 
         bool updated = _unitOfWork.PersonRepository.UpdatePerson(personEntity);
 
         if (!updated)

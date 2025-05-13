@@ -43,20 +43,22 @@ public class PersonRepository : IPersonRepository
             return false; 
         }
     }
+
     public bool UpdatePerson(Person person)
     {
         try
         {
-            person.UpdateTime = DateTimeOffset.Now; 
+            person.UpdateTime = DateTimeOffset.Now;
 
             _context.Entry(person).State = EntityState.Modified;
-            return true; 
+            return true;
         }
         catch
         {
-            return false; 
+            return false;
         }
     }
+
 
     public bool DeletePerson(Person person)
     {
