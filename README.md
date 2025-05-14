@@ -1,4 +1,5 @@
-A documentação da API está disponível em: https://people-registration-challenge-backend.onrender.com/swagger/index.html
+A documentação da API está disponível em: 
+https://people-registration-challenge-backend.onrender.com/swagger/index.html
 
 ## 🧱 Tecnologias Utilizadas
 
